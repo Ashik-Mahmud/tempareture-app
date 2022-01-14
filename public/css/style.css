@@ -43,11 +43,6 @@ Common Class
     color: #273c75;
 }
 
-.hide {
-    opacity: 0;
-    transform: scale(0);
-    pointer-events: none;
-}
 
 /*==============
 Overall Design 
@@ -88,6 +83,7 @@ Overall Design
     opacity: 0;
     position: absolute;
     pointer-events: none;
+    text-transform: capitalize;
 }
 
 .message.success {
@@ -183,6 +179,7 @@ Overall Design
     font-size: 1.3rem;
     margin: 1rem 0rem;
     display: block;
+    text-transform: capitalize;
 }
 
 .weather-text .location {
