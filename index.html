@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application ~ </title>
+    <!-- link for favicon  -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- link for boximicons  -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- link for stylesheet  -->
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+
+  <!-- insertion location area  -->
+        <div class="weather-input active">
+            <div class="weather-header">
+                <span class="left-arrow2"><i class='bx bx-arrow-back'></i></span>
+                <h2 class="title"> Weather App</h2>
+            </div>
+            <div class="input-area">
+                <div class="message">Error Occure</div>
+                <input type="text" placeholder="Enter your Location" id="input-fields">
+            </div>
+        </div>
+
+    <div class="weather-wrapper">
+        <div class="weather-box">
+            <div class="weather-header">
+                <span class="left-arrow"><i class='bx bx-arrow-back'></i></span>
+                <h2 class="title"> Weather App</h2>
+            </div>
+            <div class="weather-body">
+                <div class="weather-img">
+                    <img src="https://openweathermap.org/img/wn/10n@2x.png" alt="weather Image">
+                </div>
+                <div class="weather-text">
+                    <h1 class="temp">19 ° C</h1>
+                    <span class="weather">Cloudy Sky</span>
+                    <address class="location"><span class="map"><i class='bx bx-map'></i></span>
+                        <div class="locate">Dhaka, Bangladesh</div>
+                    </address>
+                </div>
+
+            </div>
+            <div class="weather-footer">
+                <div class="felling">
+                    <i class='bx bxs-thermometer'></i>
+                    <div class="felling__text">
+                        <span class="felling__temp">21 ° C</span>
+                        <span class="felling__name">Feel Likes</span>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <i class='bx bxs-droplet-half'></i>
+                    <div class="humidity__text">
+                        <span class="humidity__percent">80%</span>
+                        <span class="humidity__name">Humidity</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- link for scriping file  -->
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
